@@ -43,13 +43,6 @@ While row <= 3936
     'creates string from 'cols' array
     For Each k In cols
     
-        'k = index
-        'if loop will make index value empty if it matches 'k'
-        'If k <> index Then
-        '    If k = index Then
-        '        k = ""
-        '    End If
-        'End If
         'disposes of empty indexes
         If k = "" Then
             garbage = garbage & k
@@ -73,13 +66,5 @@ While row <= 3936
     garbage = ""
 
 Wend
-
-    'ActiveCell.Offset(1,0)
-    'ActiveCell = stren
-
-
-    'MsgBox "Hello World"
-    'Cells(4, 96) = 25
-    'MsgBox stren
 
 End Sub
